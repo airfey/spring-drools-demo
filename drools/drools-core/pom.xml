@@ -14,16 +14,16 @@
 			<artifactId>slf4j-log4j12</artifactId>
 		</dependency>
 
-
+ 
 
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 		</dependency>
-<dependency>
-				<groupId>org.springframework</groupId>
-				<artifactId>spring-tx</artifactId>
-			</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-tx</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-test</artifactId>
@@ -37,11 +37,15 @@
 			<groupId>org.drools</groupId>
 			<artifactId>drools-spring</artifactId>
 		</dependency>
+<<<<<<< HEAD
 		 
 		 <dependency>
 				<groupId>org.antlr</groupId>
 				<artifactId>antlr-runtime</artifactId>
 			</dependency>
+=======
+
+>>>>>>> 68e65147c80fbbb9388134f4fd8687c26d56a80c
 	</dependencies>
 
 </project>

@@ -13,7 +13,6 @@
 		<junit.version>3.8</junit.version>
 		<slf4j.version>1.6.4</slf4j.version>
 		<aspectj.version>1.6.12</aspectj.version>
-		<jodatime.version>2.1</jodatime.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<dependencyManagement>
@@ -98,11 +97,7 @@
 			</dependency>
 
 
-			<dependency>
-				<groupId>joda-time</groupId>
-				<artifactId>joda-time</artifactId>
-				<version>${jodatime.version}</version>
-			</dependency>
+		
 
 			<dependency>
 				<groupId>org.aspectj</groupId>
@@ -111,16 +106,7 @@
 				<scope>runtime</scope>
 			</dependency>
 
-			<dependency>
-				<groupId>org.apache.commons</groupId>
-				<artifactId>commons-proxy</artifactId>
-				<version>1.0</version>
-			</dependency>
-			<dependency>
-				<groupId>cglib</groupId>
-				<artifactId>cglib-nodep</artifactId>
-				<version>2.2.2</version>
-			</dependency>
+
 
 			<dependency>
 				<groupId>javassist</groupId>
@@ -129,6 +115,7 @@
 			</dependency>
 
 
+<<<<<<< HEAD
 			<dependency>
 				<groupId>cglib</groupId>
 				<artifactId>cglib</artifactId>
@@ -150,6 +137,21 @@
 				<artifactId>antlr-runtime</artifactId>
 				<version>3.5</version>
 			</dependency>
+=======
+
+
+			<dependency>
+				<groupId>org.drools</groupId>
+				<artifactId>drools-core</artifactId>
+				<version>5.5.0.Final</version>
+			</dependency>
+			<dependency>
+				<groupId>org.drools</groupId>
+				<artifactId>drools-spring</artifactId>
+				<version>5.5.0.Final</version>
+			</dependency>
+
+>>>>>>> 68e65147c80fbbb9388134f4fd8687c26d56a80c
 
 
 
@@ -170,12 +172,12 @@
 			</dependency>
 
 
-			<dependency>
-				<groupId>commons-pool</groupId>
-				<artifactId>commons-pool</artifactId>
-				<version>1.5.6</version>
-			</dependency>
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 68e65147c80fbbb9388134f4fd8687c26d56a80c
 
 		</dependencies>
 	</dependencyManagement>
@@ -185,6 +187,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.3.2</version>
 				<configuration>
 					<source>1.6</source>
 					<target>1.6</target>
