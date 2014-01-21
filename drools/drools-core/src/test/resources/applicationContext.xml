@@ -13,8 +13,9 @@
 
 	<drools:kbase id="kbase_demo">
 		<drools:resources>
-			<drools:resource type="DRL" source="classpath:Drink.drl" />
-			<drools:resource type="DRL" source="classpath:Message.drl" />
+			<drools:resource type="DRL" source="classpath:drink.drl" />
+			<drools:resource type="DRL" source="classpath:message.drl" />
+			<drools:resource type="DRL" source="classpath:golf.drl" />
 		</drools:resources>
 	</drools:kbase>
 	<drools:ksession id="ksession" type="stateful" kbase="kbase_demo" />

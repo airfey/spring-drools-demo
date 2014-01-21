@@ -10,9 +10,4 @@ public class BaseTest extends AbstractJUnit38SpringContextTests {
 		System.out.println("--spring test success--");
 	}
 
-	public void testAbc() {
-		Long a = 128L;
-		Long b = 128L;
-		System.out.println(a == b);
-	}
 }

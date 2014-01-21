@@ -1,12 +1,17 @@
 package com.zandili.demo.drools.pojo;
 
+import java.io.Serializable;
+
 /**
  * 只是个测试
  * 
  * @author airfey
  * 
  */
-public class Message {
+public class Message implements Serializable{
+ 
+	private static final long serialVersionUID = -7670667437162623983L;
+
 	private String msg;
 
 	private String type;

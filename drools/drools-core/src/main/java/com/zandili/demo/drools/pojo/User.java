@@ -1,12 +1,16 @@
 package com.zandili.demo.drools.pojo;
 
+import java.io.Serializable;
+
 /**
  * 传说中的小明
  * 
  * @author airfey
  * 
  */
-public class User {
+public class User implements Serializable {
+
+	private static final long serialVersionUID = 2660763436851514036L;
 	private int money; // 手中的钱
 	private int kp; // 空瓶数
 	private int totals; // 喝掉的瓶数
